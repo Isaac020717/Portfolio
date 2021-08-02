@@ -31,3 +31,19 @@ p {
     height: 50px;
     background-color: rgba(84,84,86,0.6);
 }
+
+#navigation-list {
+    list-style: none;
+    padding-top: 15px;
+}
+
+#navigation-list > li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navigation-list > li > a {
+    text-decoration: none;
+    color: white;
+}
