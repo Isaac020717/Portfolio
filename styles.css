@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
 
 h1 {
     color: white;
@@ -41,7 +44,7 @@ a {
     background-color: rgba(84,84,86,0.6);
 }
 
-.navigation > div {
+.navigation > a > div {
     float: left;
     height: 100%;
     padding-top: 15px;
@@ -50,7 +53,8 @@ a {
     transition: all 0.3s ease;
 }
 
-.navigation > div:hover {
+.navigation > a > div:hover {
+    cursor: pointer;
     background-color: rgba(19,60,84,0.6);
 }
 
@@ -93,4 +97,31 @@ a {
     padding-right: 200px;
     padding-top: 20px;
     text-align: justify;
+}
+
+
+
+
+/* PROJECTS PAGE - SPECIFIC STYLES */
+
+.project_list {
+    height: 100%;
+    background-color: #ededf5;
+    background-image: url("images/basic_shapes.png");
+    background-repeat: repeat;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.project_div {
+    width: 30%;
+    margin-left: 35%;
+    background-color: #72727a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.project_div:hover {
+    cursor: pointer;
+    background-color: #6e87b5;
 }
