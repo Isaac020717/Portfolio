@@ -111,9 +111,13 @@ hr.occupation_line {
 /* PROJECTS PAGE - SPECIFIC STYLES */
 
 .main_body {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #ededf5;
+    background-color: #f2f2fc;
     background-image: url("images/basic_shapes.png");
     background-repeat: repeat;
 }
@@ -156,6 +160,10 @@ hr.occupation_line {
 }
 
 /* CONTACTS PAGE - SPECIFIC STYLES */
+
+.contacts_body {
+    background-color: #f2f2fc;
+}
 
 table {
     margin-left: auto;
