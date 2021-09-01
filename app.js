@@ -24,7 +24,7 @@ async function getRepos() {
 
         projectListDiv.appendChild(projectDiv);
 
-        projectDiv.addEventListener("click", () => window.location=i.html_url);
+        projectDiv.addEventListener("click", () => window.open(i.html_url, '_blank'));
 
     });
 
