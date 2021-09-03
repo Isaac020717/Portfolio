@@ -30,6 +30,15 @@ a {
     font-family: Roboto, sans-serif;
 }
 
+.column {
+    width: 100%;
+}
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
 
 .background_image {
     width: 100%;
@@ -64,8 +73,7 @@ a {
 
 
 .title_box {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 12%;
 }
 
 .logo > img {
