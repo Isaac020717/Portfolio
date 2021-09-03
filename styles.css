@@ -89,6 +89,10 @@ a {
     font-size: 48px;
 }
 
+.occupation {
+    text-align: center;
+    font-size: 26px;
+}
 .occupation_line {
     display: inline-block;
 }
@@ -103,10 +107,6 @@ a {
     display: block;
     border-top: 1px solid white;
     margin-top: 5px;
-}
-.occupation {
-    text-align: center;
-    font-size: 26px;
 }
 
 .about {
