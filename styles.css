@@ -89,12 +89,20 @@ a {
     font-size: 48px;
 }
 
-hr.occupation_line {
-    height: 1px;
-    background: white;
-    border: none;
-    width: 24%;
-    margin-left: 38%;
+.occupation_line {
+    display: inline-block;
+}
+.occupation_line::before {
+    content: '';
+    display: block;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+.occupation_line::after {
+    content: '';
+    display: block;
+    border-top: 1px solid white;
+    margin-top: 5px;
 }
 .occupation {
     text-align: center;
